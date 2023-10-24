@@ -27,13 +27,13 @@ namespace CommandPattern.AntiPattern
             switch (action)
             {
                 case Action.LOGIN:
-
+                    _login.doLogin();
                     break;
                 case Action.LOGOUT:
-                    
+                    _logout.doLogout();
                     break;
                 case Action.QUERY:
-
+                    _query.doQuery();
                     break;
             }
         }
